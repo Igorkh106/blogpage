@@ -1,0 +1,19 @@
+{
+  "name": "blog page",
+  "version": "1.0.0",
+  "homepage": "",
+  "authors": [
+    "Igor Khrypak <igorkh106@gmail.com>"
+  ],
+  "description": "Demo test task",
+  "moduleType": [
+    "globals"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "normalize.css": "*",
+    "jquery": "2.*"
+  },
+  "main": "",
+  "private": true
+}

@@ -1,0 +1,26 @@
+/*
+* Third Party
+
+
+@import "CSS:../../bower_components/normalize.css/normalize.css";
+*/
+/*
+* Custom
+*/
+@import "partials/variable";
+
+article{
+  width: 100%;
+  color: #ccc;
+  border: 1px  dashed #ccc;
+}
+
+header, footer{
+  background: #222;
+}
+
+.comments{
+  background: #3c3c3c;
+  color: #fff;
+
+}

@@ -39,6 +39,7 @@ p{
 }
 .post-container{
   margin-top:-100px;
+  padding-bottom:100px;
   background-color: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
 }
@@ -140,12 +141,26 @@ p{
     width:100%;
   }
 
-  .comment-author{
-    &-avatar{
-      border: 2px solid $border-color;
-      border-radius: 6px;
+  .comment{
+    margin: 20px 0;
+    width:100%;
+    display:block;
+    float:left;
+    clear:both;
+
+    &.comment-nested{
+      margin: 0 0 30px 15%;
+      width: 80%;
+    }
+
+    &-author{
+      &-avatar{
+        border: 2px solid $border-color;
+        border-radius: 6px;
+      }
     }
   }
+
 
   .btn-submit{
     color: $heading-color;

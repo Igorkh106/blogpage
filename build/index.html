@@ -8,61 +8,101 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="../bower_components/bootstrap/dist/css/bootstrap.css">
-
+    <!-- <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet"> -->
 </head>
 <body>
 
 <header>
-<h2>Blog Page</h2>
+    <div class="container">
+
+    </div>
 </header>
 
-<div class="content">
+<div class="container">
+    <div class="post-container col-lg-8 col-lg-offset-2">
 
-<article>
-    <h2 class="article-heading">This is an test Article</h2>
-    <img class="img-responsive" />
-    <p>Lorem Ipsum dolor sit amet amenom domenus shototam she</p>
-    <p>Lorem Ipsum dolor sit amet amenom domenus shototam she</p>
-    <p>Lorem Ipsum dolor sit amet amenom domenus shototam she</p>
-    <p>Lorem Ipsum dolor sit amet amenom domenus shototam she</p>
-</article>
 
+            <article class="post col-lg-10 col-lg-offset-1">
+                <h2 class="post-heading">The road to home</h2>
+                <span class="post-date">June 18, 2015</span>
+        
+                <p>Made last it seen went no just when of by. Occasional entreaties comparison me difficulty so themselves.
+                    At brother inquiry of offices without do my service. As particular to companions at sentiments.
+                    Weather however luckily enquire so certain do. Aware did stood was day under ask.
+                    Dearest affixed enquire on explain opinion he. Reached who the mrs joy offices pleased.
+                    Towards did colonel article any parties.</p>
+        
+                <img class="img-responsive post-align-left" src="img/road.png" alt="test image"/>
+        
+                <p>Needed feebly dining oh talked wisdom oppose at. Applauded use attempted strangers now are middleton concluded had.
+                    It is tried no added purse shall no on truth. Pleased anxious or as in by viewing forbade minutes prevent.
+                    Too leave had those get being led weeks blind. Had men rose from down lady able. Its son him ferrars proceed six parlors.
+                    Her say projection age announcing decisively men. Few gay sir those green men timed downs widow chief.
+                    Prevailed remainder may propriety can and.  Now for manners use has company believe parlors. </p>
+                    Least nor party who wrote while did.
+        
+                <p>We diminution preference thoroughly if. Joy deal pain view much her time.
+                    Led young gay would now state. Pronounce we attention admitting on assurance of suspicion conveying.
+                    That his west quit had met till. Of advantage he attending household at do perceived.
+                    Middleton in objection discovery as agreeable. Edward thrown dining so he my around to.</p>
+        
+                <p>Sense child do state to defer mr of forty. Become latter but nor abroad wisdom waited.
+                    Was delivered gentleman acuteness but daughters. In as of whole as match asked.
+                    Pleasure exertion put add entrance distance drawings.
+                    In equally matters showing greatly it as. Want name any wise are able park when.
+                    Saw vicinity judgment remember finished men throwing.</p>
+        
+                <p>Too leave had those get being led weeks blind. Had men rose from down lady able.
+                    Its son him ferrars proceed six parlors. Her say projection age announcing decisively men. </p>
+        
+            </article>
+            <div class="post-meta col-lg-10 col-lg-offset-1">
+                <span class="post-meta-item post-meta-author"> <i class="fa fa-user" aria-hidden="true"></i> Post by <b>Will Smith</b></span>
+                <span class="post-meta-item post-meta-date"> <i class="fa fa-clock-o" aria-hidden="true"></i> Posted <b>June 18, 2015</b> at  <b>21:14</b></span>
+                <span class="post-meta-item post-meta-comments"> <i class="fa fa-comment" aria-hidden="true"></i> 12 comments</span>
+            </div>
+        <div class="comments col-lg-10 col-lg-offset-1">
+            <div class="row">
+                <div class="comment-leave col-lg-12">
+                    <h4 class="comment-heading">Leave comment:</h4>
+                        <div class="col-md-2">
+                            <img class="img-responsive comment-author-avatar" src="../img/avatar.png" alt="avatar" />
+                        </div>
+        
+                        <div class="col-md-10">
+                            <form>
+                                <textarea  name="comment-message" id="comment-message" placeholder="Your message" rows="3"></textarea>
+                                <input type="submit" onsubmit="return false;" class="btn btn-lg btn-submit pull-right" name="leave-comment" value="Send"/>
+        
+                            </form>
+                        </div>
+                </div>
+        
+                <div class="comment">
+                    <div class="comment-author">
+                        <img class="img-responsive comment-author-avatar" />
+                        <span class="comment-author-name">John Doe</span>
+                    </div>
+                    <div class="comment-content">
+                        <p>Well, nothing can beat wordpress</p>
+                    </div>
+                </div>
+        
+                <div class="comment-offset">
+                    <div class="comment-author">
+                        <img class="img-responsive comment-author-avatar" />
+                        <span class="comment-author-name">John Doe</span>
+                    </div>
+                    <div class="comment-content">
+                        <p>Well, nothing can beat wordpress</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
 </div>
 
-<aside class="comments">
-
-    <div class="comment">
-        <div class="comment-author">
-            <img class="img-responsive comment-author-avatar" />
-            <span class="comment-author-name">John Doe</span>
-        </div>
-        <div class="comment-content">
-            <p>Well, nothing can beat wordpress</p>
-        </div>
-    </div>
-
-    <div class="comment-offset">
-        <div class="comment-author">
-            <img class="img-responsive comment-author-avatar" />
-            <span class="comment-author-name">John Doe</span>
-        </div>
-        <div class="comment-content">
-            <p>Well, nothing can beat wordpress</p>
-        </div>
-    </div>
-</aside>
-<footer>
-    <div class="col-md-4">
-        Logo
-    </div>
-    <div class="col-md-4">
-        Menu
-    </div>
-    <div class="col-md-4">
-        Copyright
-    </div>
-</footer>
 
 <script src="js/main.js"></script>
 </body>

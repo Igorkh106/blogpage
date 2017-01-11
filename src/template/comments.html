@@ -1,22 +1,38 @@
-<aside class="comments">
+<div class="comments col-lg-10 col-lg-offset-1">
+    <div class="row">
+        <div class="comment-leave col-lg-12">
+            <h4 class="comment-heading">Leave comment:</h4>
+                <div class="col-md-2">
+                    <img class="img-responsive comment-author-avatar" src="../img/avatar.png" alt="avatar" />
+                </div>
 
-    <div class="comment">
-        <div class="comment-author">
-            <img class="img-responsive comment-author-avatar" />
-            <span class="comment-author-name">John Doe</span>
+                <div class="col-md-10">
+                    <form>
+                        <textarea  name="comment-message" id="comment-message" placeholder="Your message" rows="3"></textarea>
+                        <input type="submit" onsubmit="return false;" class="btn btn-lg btn-submit pull-right" name="leave-comment" value="Send"/>
+
+                    </form>
+                </div>
         </div>
-        <div class="comment-content">
-            <p>Well, nothing can beat wordpress</p>
+
+        <div class="comment">
+            <div class="comment-author">
+                <img class="img-responsive comment-author-avatar" />
+                <span class="comment-author-name">John Doe</span>
+            </div>
+            <div class="comment-content">
+                <p>Well, nothing can beat wordpress</p>
+            </div>
+        </div>
+
+        <div class="comment-offset">
+            <div class="comment-author">
+                <img class="img-responsive comment-author-avatar" />
+                <span class="comment-author-name">John Doe</span>
+            </div>
+            <div class="comment-content">
+                <p>Well, nothing can beat wordpress</p>
+            </div>
         </div>
     </div>
-
-    <div class="comment-offset">
-        <div class="comment-author">
-            <img class="img-responsive comment-author-avatar" />
-            <span class="comment-author-name">John Doe</span>
-        </div>
-        <div class="comment-content">
-            <p>Well, nothing can beat wordpress</p>
-        </div>
-    </div>
-</aside>
+</div>

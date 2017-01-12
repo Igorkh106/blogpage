@@ -4,7 +4,7 @@
   "description": "blogpage",
   "repository": {
     "type": "git",
-    "url": "https://github.com/"
+    "url": "https://github.com/Igorkh106/blogpage"
   },
   "dependencies": {
     "browser-sync": "^2.2.3",

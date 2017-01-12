@@ -1,0 +1,34 @@
+//Mixin for media queries
+@mixin mq($point) {
+
+  $mq-xlg: "all and (min-width: 1600px)";
+  $mq-lg: "all and (min-width: 1200px) and (max-width: 1599px)";
+  $mq-md: "all and (min-width: 992px) and (max-width: 1199px)";
+  $mq-sm: "all and (min-width: 768px) and (max-width: 991px)";
+  $mq-xs: "all and (max-width: 767px)";
+  $mq-xxs: "all and (max-width: 479px)";
+  $mq-xxxs: "all and (max-width: 320px)";
+
+  @if $point == lg {
+    @media #{$mq-lg} { @content; }
+  }
+  @else if $point == md {
+    @media #{$mq-md} { @content; }
+  }
+  @else if $point == sm {
+    @media #{$mq-sm} { @content; }
+  }
+  @else if $point == xs {
+    @media #{$mq-xs}  { @content; }
+  }
+  @else if $point == xxs {
+    @media #{$mq-xxs}  { @content; }
+  }
+  @else if $point == xxxs {
+    @media #{$mq-xxxs}  { @content; }
+  }
+  @else if $point == xlg {
+    @media #{$mq-xlg}  { @content; }
+  }
+
+}

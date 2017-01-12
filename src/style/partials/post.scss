@@ -1,0 +1,92 @@
+.post-container{
+  margin-top:-80px;
+  padding-bottom:80px;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+}
+
+.post{
+  color: $text-color;
+  padding-left: 0;
+  padding-right: 0;
+
+  &-heading{
+    border-bottom: 2px solid #f2f2f2;
+    margin: 40px auto 0;
+    padding-top: 20px;
+    padding-bottom: 5px;
+    color: $heading-color;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 30px;
+
+    @include mq(xs) {
+      font-size: 1.7em;
+    }
+    &:before{
+      content: " ";
+      background: url("../img/star.png") no-repeat center;
+      position: absolute;
+      left: -56px;
+      width: 32px;
+      height:32px;
+      display:block;
+
+      @include mq(xs) {
+        display:none;
+      }
+      @include mq(sm) {
+        display:none;
+      }
+    }
+  }
+
+  &-date{
+    display:block;
+    color: $muted-color;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+
+  &-meta {
+    height: 50px;
+    padding: 15px 0;
+    border-top: 2px solid $border-color;
+    border-bottom: 2px solid $border-color;
+
+    &-item {
+      color: $muted-color;
+      font-weight: 300;
+      font-size: 13px;
+      line-height: 20px;
+      margin-right: 50px;
+
+      &:last-child {
+        margin-right: auto;
+      }
+    }
+
+    &-comments {
+      font-weight: 700;
+    }
+  }
+
+  &-align-left{
+    margin: 0 20px 0 -90px;
+    float:left;
+    border:3px solid $border-color;
+  @include mq(md){
+    margin: 0 20px 0 -15px;
+  }
+    @include mq(sm){
+      margin: 0 20px 0 0;
+    }
+
+    @include mq(xs){
+      margin: 0 20px 0 0;
+    }
+  }
+
+}

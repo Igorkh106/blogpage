@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12f43fbb-45fb-470f-b43a-f9958e828530" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/partials/mixins.scss" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/style/partials/post.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/css/main.css" afterPath="$PROJECT_DIR$/build/css/main.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/index.html" afterPath="$PROJECT_DIR$/build/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/style/main.scss" afterPath="$PROJECT_DIR$/src/style/main.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/template/article.html" afterPath="$PROJECT_DIR$/src/template/article.html" />
     </list>
     <ignored path="blogpage.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -401,7 +395,7 @@
       <workItem from="1483884104047" duration="4135000" />
       <workItem from="1484147484275" duration="328000" />
       <workItem from="1484148195062" duration="13496000" />
-      <workItem from="1484164528554" duration="19509000" />
+      <workItem from="1484164528554" duration="19563000" />
     </task>
     <task id="LOCAL-00001" summary="article">
       <created>1484165647658</created>
@@ -424,11 +418,18 @@
       <option name="project" value="LOCAL" />
       <updated>1484220885229</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Added mixin for media queries&#10;">
+      <created>1484223346754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1484223346754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38297000" />
+    <option name="totallyTimeSpent" value="38351000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="741" extended-state="0" />
@@ -469,7 +470,8 @@
     <MESSAGE value="article" />
     <MESSAGE value="Added: comments styles" />
     <MESSAGE value="Finished comments&#10;Added some logic for delete,edit, reply&#10;Added font-awesome&#10;Little refactor of the code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished comments&#10;Added some logic for delete,edit, reply&#10;Added font-awesome&#10;Little refactor of the code" />
+    <MESSAGE value="Added mixin for media queries&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added mixin for media queries&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
